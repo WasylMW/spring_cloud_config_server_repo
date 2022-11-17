@@ -1,0 +1,13 @@
+server:
+  port: 0
+spring.h2.console.enabled: true
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+  cloud:
+    config:
+      allowOverride: true
+      overrideNone: true
+      overrideSystemProperties: false
+custom.property.value: 8
